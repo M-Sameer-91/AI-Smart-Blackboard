@@ -1,8 +1,9 @@
 import tkinter as tk
 from tkinter import Canvas
-from typing import Optional, List, Tuple, Dict, Any
+from typing import Optional, List, Tuple, Dict, Any, Callable
 from dataclasses import dataclass, field
 from enum import Enum
+from app.modeling.shape_corrector import ShapeCorrector
 
 
 class DrawMode(Enum):
@@ -22,6 +23,7 @@ class StrokeData:
     width: float = 2.0
     mode: DrawMode = DrawMode.PEN
     timestamp: float = 0.0
+    is_corrected: bool = False
     
     def to_dict(self) -> Dict[str, Any]:
         """Convert stroke data to dictionary for serialization."""
@@ -36,7 +38,7 @@ class StrokeData:
 
 class DrawingCanvas:
     """
-    Professional drawing canvas engine for AI Smart Blackboard.
+    Professional drawing canvas for AI Smart Blackboard.
     
     Manages all drawing operations with support for:
     - Freehand drawing with smooth strokes
@@ -44,6 +46,7 @@ class DrawingCanvas:
     - Eraser mode infrastructure
     - Stroke data storage for future AI integration
     - Complete canvas clearing
+    - Undo/Redo infrastructure
     
     This class is designed to be UI-agnostic and can be integrated
     with any parent window or frame.
@@ -87,6 +90,9 @@ class DrawingCanvas:
         
         # Stroke history for future AI analysis
         self._stroke_history: List[StrokeData] = []
+        self._undo_states: List[List[StrokeData]] = []
+        self._redo_states: List[List[StrokeData]] = []
+        self._stroke_finished_callback: Optional[Callable[[int], None]] = None
         
         # Create the tkinter canvas
         self._canvas: Canvas = Canvas(
@@ -179,7 +185,10 @@ class DrawingCanvas:
         if self._is_drawing and self._current_stroke is not None:
             # Finalize stroke
             if self._current_stroke.points:
+                self._save_undo_state()
                 self._stroke_history.append(self._current_stroke)
+                if self._stroke_finished_callback:
+                    self._stroke_finished_callback(len(self._stroke_history))
             
         # Reset drawing state
         self._is_drawing = False
@@ -227,7 +236,10 @@ class DrawingCanvas:
         self._last_x = None
         self._last_y = None
         if self._current_stroke is not None and self._current_stroke.points:
+            self._save_undo_state()
             self._stroke_history.append(self._current_stroke)
+            if self._stroke_finished_callback:
+                self._stroke_finished_callback(len(self._stroke_history))
         self._current_stroke = None
         
     def clear_canvas(self) -> None:
@@ -237,6 +249,8 @@ class DrawingCanvas:
         """
         self._canvas.delete("all")
         self._stroke_history.clear()
+        self._undo_states.clear()
+        self._redo_states.clear()
         self._current_stroke = None
         self._is_drawing = False
         self._last_x = None
@@ -293,6 +307,52 @@ class DrawingCanvas:
             List[StrokeData]: List of all strokes drawn on the canvas
         """
         return self._stroke_history.copy()
+
+    def set_stroke_finished_callback(self, callback: Optional[Callable[[int], None]]) -> None:
+        """Register a notification invoked after each completed pen stroke."""
+        self._stroke_finished_callback = callback
+
+    def _save_undo_state(self) -> None:
+        """Store an immutable-enough copy before a user-visible board change."""
+        self._undo_states.append([
+            StrokeData(list(stroke.points), stroke.color, stroke.width, stroke.mode, stroke.timestamp, stroke.is_corrected)
+            for stroke in self._stroke_history
+        ])
+        self._redo_states.clear()
+        # Bound memory while retaining normal interactive undo behaviour.
+        if len(self._undo_states) > 100:
+            self._undo_states.pop(0)
+
+    def replace_strokes_with_shape(self, start_index: int, end_index: int, shape: Any, features: Any,
+                                   raw_vertices: Optional[List[Tuple[float, float]]] = None,
+                                   contour_points: Optional[List[Tuple[float, float]]] = None) -> bool:
+        """Replace a completed stroke group with a clean vector-like stroke.
+
+        The source strokes remain recoverable through ``undo_last_stroke``.
+        ``features`` is deliberately attribute-based because ShapeFeatures is a
+        dataclass, not a dictionary.
+        """
+        if start_index < 0 or end_index <= start_index or end_index > len(self._stroke_history):
+            return False
+        self._save_undo_state()
+        shape_name = getattr(shape, "value", str(shape)).lower()
+        x, y, width, height = getattr(features, "bounding_rect", (0, 0, 0, 0))
+        if width <= 1 or height <= 1:
+            return False
+        source_points = [point for stroke in self._stroke_history[start_index:end_index] for point in stroke.points]
+        corrected = ShapeCorrector().correct(
+            shape, features, contour_points or (source_points if shape_name == "line" else None), raw_vertices
+        )
+        points = corrected.points
+        source = self._stroke_history[start_index]
+        # Preserve entries before and after this recognition group: an
+        # asynchronous result must never erase another object drawn later.
+        self._stroke_history[start_index:end_index] = [
+            StrokeData(points, source.color, source.width, DrawMode.PEN, source.timestamp, is_corrected=True)
+        ]
+        self._canvas.delete("all")
+        self._redraw_strokes()
+        return True
     
     def get_stroke_count(self) -> int:
         """
@@ -320,6 +380,12 @@ class DrawingCanvas:
         Returns:
             bool: True if a stroke was undone, False if no strokes to undo
         """
+        if self._undo_states:
+            self._redo_states.append(self._clone_strokes(self._stroke_history))
+            self._stroke_history = self._undo_states.pop()
+            self._canvas.delete("all")
+            self._redraw_strokes()
+            return True
         if not self._stroke_history:
             return False
             
@@ -331,6 +397,23 @@ class DrawingCanvas:
         self._redraw_strokes()
         
         return True
+
+    def redo_last_stroke(self) -> bool:
+        """Restore the most recently undone drawing or auto-correction."""
+        if not self._redo_states:
+            return False
+        self._undo_states.append(self._clone_strokes(self._stroke_history))
+        self._stroke_history = self._redo_states.pop()
+        self._canvas.delete("all")
+        self._redraw_strokes()
+        return True
+
+    @staticmethod
+    def _clone_strokes(strokes: List[StrokeData]) -> List[StrokeData]:
+        return [
+            StrokeData(list(stroke.points), stroke.color, stroke.width, stroke.mode, stroke.timestamp, stroke.is_corrected)
+            for stroke in strokes
+        ]
     
     def _redraw_strokes(self) -> None:
         """
@@ -354,8 +437,8 @@ class DrawingCanvas:
                     fill=color,
                     width=width,
                     capstyle=tk.ROUND,
-                    smooth=True,
-                    splinesteps=4
+                    smooth=not stroke.is_corrected,
+                    splinesteps=4 if not stroke.is_corrected else 1,
                 )
     
     def resize(self, width: int, height: int) -> None:
@@ -377,4 +460,10 @@ class DrawingCanvas:
         Returns:
             Tuple[int, int]: (width, height) in pixels
         """
+        # Grid expansion can make the actual board larger than the construction
+        # size.  Captures must use the same coordinate system as mouse strokes.
+        width = self._canvas.winfo_width()
+        height = self._canvas.winfo_height()
+        if width > 1 and height > 1:
+            return (width, height)
         return (self._width, self._height)

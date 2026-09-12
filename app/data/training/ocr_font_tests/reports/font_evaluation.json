@@ -1,0 +1,2821 @@
+{
+  "purpose": "controlled font evaluation; not evidence of general human-handwriting accuracy",
+  "fonts": [
+    {
+      "font": "Caveat",
+      "status": "complete",
+      "items": [
+        {
+          "expected": "A",
+          "detected": "A",
+          "confidence": 0.96,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "B",
+          "detected": "6",
+          "confidence": 0.82,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "C",
+          "detected": "C",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "D",
+          "detected": "D",
+          "confidence": 0.75,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "E",
+          "detected": "E",
+          "confidence": 0.85,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "F",
+          "detected": "F",
+          "confidence": 0.7,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "G",
+          "detected": "6",
+          "confidence": 0.83,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "H",
+          "detected": "Hf",
+          "confidence": 0.84,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "I",
+          "detected": "L",
+          "confidence": 0.44,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "J",
+          "detected": "J",
+          "confidence": 0.53,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "K",
+          "detected": "K",
+          "confidence": 0.93,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "L",
+          "detected": "C",
+          "confidence": 0.38,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "M",
+          "detected": "M",
+          "confidence": 0.87,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "N",
+          "detected": "N",
+          "confidence": 0.72,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "O",
+          "detected": "0",
+          "confidence": 0.6,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "P",
+          "detected": "p",
+          "confidence": 0.84,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "Q",
+          "detected": "tl",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "R",
+          "detected": "R",
+          "confidence": 0.9,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "S",
+          "detected": "g",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "T",
+          "detected": "T",
+          "confidence": 0.87,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "U",
+          "detected": "Y",
+          "confidence": 0.46,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "V",
+          "detected": "V",
+          "confidence": 0.07,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "W",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "X",
+          "detected": "X",
+          "confidence": 0.89,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "Y",
+          "detected": "y",
+          "confidence": 0.25,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "Z",
+          "detected": "A",
+          "confidence": 0.75,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "a",
+          "detected": "Z",
+          "confidence": 0.52,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "b",
+          "detected": "b",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "c",
+          "detected": "C",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "d",
+          "detected": "d",
+          "confidence": 0.74,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "e",
+          "detected": "C",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "f",
+          "detected": "f",
+          "confidence": 0.69,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "g",
+          "detected": "d",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "h",
+          "detected": "h",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "i",
+          "detected": ",",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "j",
+          "detected": "j",
+          "confidence": 0.89,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "k",
+          "detected": "k",
+          "confidence": 0.84,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "l",
+          "detected": "/",
+          "confidence": 0.8999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "m",
+          "detected": "a",
+          "confidence": 0.41,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "n",
+          "detected": "rr",
+          "confidence": 0.73,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "o",
+          "detected": "4",
+          "confidence": 0.83,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "p",
+          "detected": "P",
+          "confidence": 0.88,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "q",
+          "detected": "1",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "r",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "s",
+          "detected": "g",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "t",
+          "detected": "C",
+          "confidence": 0.52,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "u",
+          "detected": "U",
+          "confidence": 0.66,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "v",
+          "detected": "V",
+          "confidence": 0.89,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "w",
+          "detected": "UW",
+          "confidence": 0.63,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "x",
+          "detected": "X",
+          "confidence": 0.77,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "y",
+          "detected": "J",
+          "confidence": 0.88,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "z",
+          "detected": "x",
+          "confidence": 0.63,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "0",
+          "detected": "\u00a2",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "1",
+          "detected": "7",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "2",
+          "detected": "Z",
+          "confidence": 0.69,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "3",
+          "detected": "Ss",
+          "confidence": 0.51,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "4",
+          "detected": "Y",
+          "confidence": 0.81,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "5",
+          "detected": "5",
+          "confidence": 0.96,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "6",
+          "detected": "O",
+          "confidence": 0.85,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "7",
+          "detected": "f",
+          "confidence": 0.21,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "8",
+          "detected": "S",
+          "confidence": 0.31,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "9",
+          "detected": "1",
+          "confidence": 0.76,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "o",
+          "detected": "4",
+          "confidence": 0.83,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "O",
+          "detected": "0",
+          "confidence": 0.6,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "c",
+          "detected": "C",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "e",
+          "detected": "C",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "a",
+          "detected": "Z",
+          "confidence": 0.52,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "x",
+          "detected": "X",
+          "confidence": 0.77,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "y",
+          "detected": "J",
+          "confidence": 0.88,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "l",
+          "detected": "/",
+          "confidence": 0.8999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "I",
+          "detected": "L",
+          "confidence": 0.44,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "1",
+          "detected": "7",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "0",
+          "detected": "\u00a2",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "Hello",
+          "detected": "Hello",
+          "confidence": 0.7,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "World",
+          "detected": "World",
+          "confidence": 0.84,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Smart",
+          "detected": "Smort",
+          "confidence": 0.38,
+          "passed": false,
+          "character_accuracy": 0.8,
+          "category": "word"
+        },
+        {
+          "expected": "Blackboard",
+          "detected": "Blackboard",
+          "confidence": 0.49,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Computer",
+          "detected": "Computer:",
+          "confidence": 0.53,
+          "passed": false,
+          "character_accuracy": 0.875,
+          "category": "word"
+        },
+        {
+          "expected": "Science",
+          "detected": "Soience",
+          "confidence": 0.09,
+          "passed": false,
+          "character_accuracy": 0.8571428571428572,
+          "category": "word"
+        },
+        {
+          "expected": "Mathematics",
+          "detected": "Mathematice",
+          "confidence": 0.19,
+          "passed": false,
+          "character_accuracy": 0.9090909090909091,
+          "category": "word"
+        },
+        {
+          "expected": "Circle",
+          "detected": "Circle",
+          "confidence": 0.74,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Square",
+          "detected": "Square",
+          "confidence": 0.63,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Triangle",
+          "detected": "Triangle",
+          "confidence": 0.71,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "AI Smart Blackboard",
+          "detected": "AL Smart Blackboard",
+          "confidence": 0.8366666666666667,
+          "passed": false,
+          "character_accuracy": 0.9473684210526316,
+          "category": "project_text"
+        },
+        {
+          "expected": "Smart Blackboard",
+          "detected": "Cmart Blackboard",
+          "confidence": 0.87,
+          "passed": false,
+          "character_accuracy": 0.9375,
+          "category": "project_text"
+        },
+        {
+          "expected": "Shape Correct",
+          "detected": "Shape Correct",
+          "confidence": 0.52,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "project_text"
+        },
+        {
+          "expected": "Automatic Recognition",
+          "detected": "Automatic Recognition",
+          "confidence": 0.865,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "project_text"
+        }
+      ],
+      "accuracy": 0.48650692169294707,
+      "mean_confidence": 0.675536398467433
+    },
+    {
+      "font": "IndieFlower",
+      "status": "complete",
+      "items": [
+        {
+          "expected": "A",
+          "detected": "a",
+          "confidence": 0.88,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "B",
+          "detected": "B",
+          "confidence": 0.81,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "C",
+          "detected": "C",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "D",
+          "detected": "D",
+          "confidence": 0.81,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "E",
+          "detected": "C",
+          "confidence": 0.25,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "F",
+          "detected": "LL",
+          "confidence": 0.04,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "G",
+          "detected": "Gq",
+          "confidence": 0.45,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "H",
+          "detected": "H",
+          "confidence": 0.64,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "I",
+          "detected": "\\",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "J",
+          "detected": "J",
+          "confidence": 0.96,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "K",
+          "detected": "K",
+          "confidence": 0.86,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "L",
+          "detected": "L",
+          "confidence": 0.77,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "M",
+          "detected": "M",
+          "confidence": 0.89,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "N",
+          "detected": "NO",
+          "confidence": 0.17,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "O",
+          "detected": "O",
+          "confidence": 0.85,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "P",
+          "detected": "D",
+          "confidence": 0.76,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "Q",
+          "detected": "QQ",
+          "confidence": 0.45,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "R",
+          "detected": "R",
+          "confidence": 0.9,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "S",
+          "detected": "S",
+          "confidence": 0.9,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "T",
+          "detected": "T",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "U",
+          "detected": "U",
+          "confidence": 0.76,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "V",
+          "detected": "V",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "W",
+          "detected": "LJ",
+          "confidence": 0.53,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "X",
+          "detected": "X",
+          "confidence": 0.77,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "Y",
+          "detected": "Y",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "Z",
+          "detected": "2",
+          "confidence": 0.52,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "a",
+          "detected": "a",
+          "confidence": 0.3,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "b",
+          "detected": "b",
+          "confidence": 0.86,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "c",
+          "detected": "C",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "d",
+          "detected": "C",
+          "confidence": 0.75,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "e",
+          "detected": "C",
+          "confidence": 0.31,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "f",
+          "detected": "c",
+          "confidence": 0.69,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "g",
+          "detected": "J",
+          "confidence": 0.85,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "h",
+          "detected": "h",
+          "confidence": 0.85,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "i",
+          "detected": "|",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "j",
+          "detected": "J",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "k",
+          "detected": "K",
+          "confidence": 0.71,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "l",
+          "detected": "|",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "m",
+          "detected": "mm",
+          "confidence": 0.1,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "n",
+          "detected": "r",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "o",
+          "detected": "O",
+          "confidence": 0.87,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "p",
+          "detected": "er",
+          "confidence": 0.08,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "q",
+          "detected": "C",
+          "confidence": 0.76,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "r",
+          "detected": "c",
+          "confidence": 0.49,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "s",
+          "detected": "S",
+          "confidence": 0.74,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "t",
+          "detected": "t",
+          "confidence": 0.0,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "u",
+          "detected": "o",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "v",
+          "detected": "V",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "w",
+          "detected": "Ud",
+          "confidence": 0.36,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "x",
+          "detected": "xX",
+          "confidence": 0.35,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "y",
+          "detected": "\u00a5",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "z",
+          "detected": "Zz",
+          "confidence": 0.62,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "0",
+          "detected": "C",
+          "confidence": 0.79,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "1",
+          "detected": "4",
+          "confidence": 0.49,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "2",
+          "detected": "6",
+          "confidence": 0.09,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "3",
+          "detected": "3",
+          "confidence": 0.96,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "4",
+          "detected": "Uy",
+          "confidence": 0.24,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "5",
+          "detected": "5",
+          "confidence": 0.26,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "6",
+          "detected": "6",
+          "confidence": 0.96,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "7",
+          "detected": "4",
+          "confidence": 0.84,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "8",
+          "detected": "6",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "9",
+          "detected": "q",
+          "confidence": 0.18,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "o",
+          "detected": "O",
+          "confidence": 0.87,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "O",
+          "detected": "O",
+          "confidence": 0.85,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "c",
+          "detected": "C",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "e",
+          "detected": "C",
+          "confidence": 0.31,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "a",
+          "detected": "a",
+          "confidence": 0.3,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "x",
+          "detected": "xX",
+          "confidence": 0.35,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "y",
+          "detected": "\u00a5",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "l",
+          "detected": "|",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "I",
+          "detected": "\\",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "1",
+          "detected": "4",
+          "confidence": 0.49,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "0",
+          "detected": "C",
+          "confidence": 0.79,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "Hello",
+          "detected": "Hello",
+          "confidence": 0.81,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "World",
+          "detected": "World",
+          "confidence": 0.72,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Smart",
+          "detected": "Smart",
+          "confidence": 0.39,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Blackboard",
+          "detected": "Blackboard |",
+          "confidence": 0.485,
+          "passed": false,
+          "character_accuracy": 0.8,
+          "category": "word"
+        },
+        {
+          "expected": "Computer",
+          "detected": "Computer,",
+          "confidence": 0.6,
+          "passed": false,
+          "character_accuracy": 0.875,
+          "category": "word"
+        },
+        {
+          "expected": "Science",
+          "detected": "Science.",
+          "confidence": 0.5,
+          "passed": false,
+          "character_accuracy": 0.8571428571428572,
+          "category": "word"
+        },
+        {
+          "expected": "Mathematics",
+          "detected": "Mathematics",
+          "confidence": 0.96,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Circle",
+          "detected": "Circle",
+          "confidence": 0.69,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Square",
+          "detected": "Square",
+          "confidence": 0.44,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Triangle",
+          "detected": "Triange",
+          "confidence": 0.24,
+          "passed": false,
+          "character_accuracy": 0.875,
+          "category": "word"
+        },
+        {
+          "expected": "AI Smart Blackboard",
+          "detected": "A\\ Smart Blackboard",
+          "confidence": 0.84,
+          "passed": false,
+          "character_accuracy": 0.9473684210526316,
+          "category": "project_text"
+        },
+        {
+          "expected": "Smart Blackboard",
+          "detected": "Smart Blackboard",
+          "confidence": 0.925,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "project_text"
+        },
+        {
+          "expected": "Shape Correct",
+          "detected": "Shaee Correct",
+          "confidence": 0.85,
+          "passed": false,
+          "character_accuracy": 0.9230769230769231,
+          "category": "project_text"
+        },
+        {
+          "expected": "Automatic Recognition",
+          "detected": "Automatic Recognition",
+          "confidence": 0.905,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "project_text"
+        }
+      ],
+      "accuracy": 0.543420554037614,
+      "mean_confidence": 0.6397126436781609
+    },
+    {
+      "font": "DancingScript",
+      "status": "complete",
+      "items": [
+        {
+          "expected": "A",
+          "detected": "A",
+          "confidence": 0.88,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "B",
+          "detected": "D",
+          "confidence": 0.88,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "C",
+          "detected": "C",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "D",
+          "detected": "D",
+          "confidence": 0.88,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "E",
+          "detected": "C",
+          "confidence": 0.66,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "F",
+          "detected": "t",
+          "confidence": 0.53,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "G",
+          "detected": "G",
+          "confidence": 0.77,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "H",
+          "detected": "rt",
+          "confidence": 0.87,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "I",
+          "detected": "I",
+          "confidence": 0.49,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "J",
+          "detected": "7",
+          "confidence": 0.51,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "K",
+          "detected": "K",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "L",
+          "detected": "L",
+          "confidence": 0.7,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "M",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "N",
+          "detected": "N",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "O",
+          "detected": "O",
+          "confidence": 0.62,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "P",
+          "detected": "Pp",
+          "confidence": 0.58,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "Q",
+          "detected": "(",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "R",
+          "detected": "R",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "S",
+          "detected": "S",
+          "confidence": 0.64,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "T",
+          "detected": "7",
+          "confidence": 0.8,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "U",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "V",
+          "detected": "V",
+          "confidence": 0.34,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "W",
+          "detected": "W",
+          "confidence": 0.73,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "X",
+          "detected": "x",
+          "confidence": 0.61,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "Y",
+          "detected": "Y",
+          "confidence": 0.53,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "Z",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "a",
+          "detected": "Gy",
+          "confidence": 0.45,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "b",
+          "detected": "b",
+          "confidence": 0.67,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "c",
+          "detected": "CO",
+          "confidence": 0.44,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "d",
+          "detected": "d",
+          "confidence": 0.8,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "e",
+          "detected": "Z",
+          "confidence": 0.38,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "f",
+          "detected": "f",
+          "confidence": 0.83,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "g",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "h",
+          "detected": "ly",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "i",
+          "detected": "U",
+          "confidence": 0.4,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "j",
+          "detected": "f",
+          "confidence": 0.13,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "k",
+          "detected": "he",
+          "confidence": 0.6,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "l",
+          "detected": "f",
+          "confidence": 0.06,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "m",
+          "detected": "m",
+          "confidence": 0.84,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "n",
+          "detected": "n",
+          "confidence": 0.83,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "o",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "p",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "q",
+          "detected": "4",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "r",
+          "detected": "LY",
+          "confidence": 0.49,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "s",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "t",
+          "detected": "C",
+          "confidence": 0.87,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "u",
+          "detected": "OL",
+          "confidence": 0.56,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "v",
+          "detected": "7",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "w",
+          "detected": "Ua",
+          "confidence": 0.38,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "x",
+          "detected": "9g",
+          "confidence": 0.2,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "y",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "z",
+          "detected": "J",
+          "confidence": 0.89,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "0",
+          "detected": "6",
+          "confidence": 0.49,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "1",
+          "detected": "I",
+          "confidence": 0.61,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "2",
+          "detected": "2",
+          "confidence": 0.95,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "3",
+          "detected": "J",
+          "confidence": 0.89,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "4",
+          "detected": "4",
+          "confidence": 0.96,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "5",
+          "detected": ")",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "6",
+          "detected": "6",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "7",
+          "detected": "f",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "8",
+          "detected": "5",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "9",
+          "detected": "C",
+          "confidence": 0.77,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "o",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "O",
+          "detected": "O",
+          "confidence": 0.62,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "c",
+          "detected": "CO",
+          "confidence": 0.44,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "e",
+          "detected": "Z",
+          "confidence": 0.38,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "a",
+          "detected": "Gy",
+          "confidence": 0.45,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "x",
+          "detected": "9g",
+          "confidence": 0.2,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "y",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "l",
+          "detected": "f",
+          "confidence": 0.06,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "I",
+          "detected": "I",
+          "confidence": 0.49,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "1",
+          "detected": "I",
+          "confidence": 0.61,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "0",
+          "detected": "6",
+          "confidence": 0.49,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "Hello",
+          "detected": "Helle",
+          "confidence": 0.84,
+          "passed": false,
+          "character_accuracy": 0.8,
+          "category": "word"
+        },
+        {
+          "expected": "World",
+          "detected": "Weld",
+          "confidence": 0.73,
+          "passed": false,
+          "character_accuracy": 0.6,
+          "category": "word"
+        },
+        {
+          "expected": "Smart",
+          "detected": "Smart",
+          "confidence": 0.63,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Blackboard",
+          "detected": "Blackbeard",
+          "confidence": 0.5,
+          "passed": false,
+          "character_accuracy": 0.9,
+          "category": "word"
+        },
+        {
+          "expected": "Computer",
+          "detected": "Computer.",
+          "confidence": 0.53,
+          "passed": false,
+          "character_accuracy": 0.875,
+          "category": "word"
+        },
+        {
+          "expected": "Science",
+          "detected": "Science",
+          "confidence": 0.54,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Mathematics",
+          "detected": "Mathematics",
+          "confidence": 0.4,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Circle",
+          "detected": "Circle",
+          "confidence": 0.81,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Square",
+          "detected": "Square",
+          "confidence": 0.58,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Triangle",
+          "detected": "Triangle",
+          "confidence": 0.71,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "AI Smart Blackboard",
+          "detected": "AT Smart Blackboard",
+          "confidence": 0.5366666666666666,
+          "passed": false,
+          "character_accuracy": 0.9473684210526316,
+          "category": "project_text"
+        },
+        {
+          "expected": "Smart Blackboard",
+          "detected": "Bmart Blackbeard",
+          "confidence": 0.335,
+          "passed": false,
+          "character_accuracy": 0.875,
+          "category": "project_text"
+        },
+        {
+          "expected": "Shape Correct",
+          "detected": "Shape Correct",
+          "confidence": 0.525,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "project_text"
+        },
+        {
+          "expected": "Automatic Recognition",
+          "detected": "Hatamatic Resin",
+          "confidence": 0.21,
+          "passed": false,
+          "character_accuracy": 0.5238095238095238,
+          "category": "project_text"
+        }
+      ],
+      "accuracy": 0.43127790741220867,
+      "mean_confidence": 0.5422605363984675
+    },
+    {
+      "font": "Handlee",
+      "status": "complete",
+      "items": [
+        {
+          "expected": "A",
+          "detected": "A",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "B",
+          "detected": ".",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "C",
+          "detected": "C",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "D",
+          "detected": "D",
+          "confidence": 0.54,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "E",
+          "detected": "C",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "F",
+          "detected": "L",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "G",
+          "detected": "G",
+          "confidence": 0.8,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "H",
+          "detected": "tH",
+          "confidence": 0.67,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "I",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "J",
+          "detected": "J",
+          "confidence": 0.96,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "K",
+          "detected": "K",
+          "confidence": 0.85,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "L",
+          "detected": "L",
+          "confidence": 0.7,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "M",
+          "detected": "M",
+          "confidence": 0.79,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "N",
+          "detected": "N",
+          "confidence": 0.65,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "O",
+          "detected": "O",
+          "confidence": 0.89,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "P",
+          "detected": "D",
+          "confidence": 0.67,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "Q",
+          "detected": "Q",
+          "confidence": 0.68,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "R",
+          "detected": "R",
+          "confidence": 0.95,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "S",
+          "detected": "S",
+          "confidence": 0.48,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "T",
+          "detected": "T",
+          "confidence": 0.88,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "U",
+          "detected": "0",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "V",
+          "detected": "V",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "W",
+          "detected": "UJ",
+          "confidence": 0.78,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "X",
+          "detected": "X",
+          "confidence": 0.79,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "Y",
+          "detected": "y",
+          "confidence": 0.48,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "Z",
+          "detected": "VA",
+          "confidence": 0.73,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "a",
+          "detected": "O.",
+          "confidence": 0.4,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "b",
+          "detected": "9",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "c",
+          "detected": "C",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "d",
+          "detected": "0",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "e",
+          "detected": "J",
+          "confidence": 0.52,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "f",
+          "detected": "T",
+          "confidence": 0.14,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "g",
+          "detected": "Y",
+          "confidence": 0.81,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "h",
+          "detected": "n",
+          "confidence": 0.59,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "i",
+          "detected": ".",
+          "confidence": 0.7999999999999999,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "j",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "k",
+          "detected": "K",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "l",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "m",
+          "detected": "AL",
+          "confidence": 0.58,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "n",
+          "detected": "vl",
+          "confidence": 0.14,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "o",
+          "detected": "O",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "p",
+          "detected": "p",
+          "confidence": 0.39,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "q",
+          "detected": "C",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "r",
+          "detected": "r",
+          "confidence": 0.0,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "s",
+          "detected": "S",
+          "confidence": 0.89,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "t",
+          "detected": "t",
+          "confidence": 0.7,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "u",
+          "detected": "U",
+          "confidence": 0.44,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "v",
+          "detected": "V",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "w",
+          "detected": "UW",
+          "confidence": 0.24,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "x",
+          "detected": "x",
+          "confidence": 0.42,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "y",
+          "detected": "V",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "z",
+          "detected": "2",
+          "confidence": 0.64,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "0",
+          "detected": "O",
+          "confidence": 0.87,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "1",
+          "detected": "1",
+          "confidence": 0.24,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "2",
+          "detected": "2",
+          "confidence": 0.9,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "3",
+          "detected": "3",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "4",
+          "detected": "ut",
+          "confidence": 0.24,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "5",
+          "detected": "S",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "6",
+          "detected": "6",
+          "confidence": 0.78,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "7",
+          "detected": "7",
+          "confidence": 0.9,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "character"
+        },
+        {
+          "expected": "8",
+          "detected": "<",
+          "confidence": 0.95,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "9",
+          "detected": "C",
+          "confidence": 0.8,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "character"
+        },
+        {
+          "expected": "o",
+          "detected": "O",
+          "confidence": 0.92,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "O",
+          "detected": "O",
+          "confidence": 0.89,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "c",
+          "detected": "C",
+          "confidence": 0.91,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "e",
+          "detected": "J",
+          "confidence": 0.52,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "a",
+          "detected": "O.",
+          "confidence": 0.4,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "x",
+          "detected": "x",
+          "confidence": 0.42,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "y",
+          "detected": "V",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "l",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "I",
+          "detected": "No text recognized",
+          "confidence": 0.0,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "1",
+          "detected": "1",
+          "confidence": 0.24,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "0",
+          "detected": "O",
+          "confidence": 0.87,
+          "passed": false,
+          "character_accuracy": 0.0,
+          "category": "ambiguous"
+        },
+        {
+          "expected": "Hello",
+          "detected": "Hello",
+          "confidence": 0.71,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "World",
+          "detected": "World",
+          "confidence": 0.72,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Smart",
+          "detected": "Smart:",
+          "confidence": 0.38,
+          "passed": false,
+          "character_accuracy": 0.8,
+          "category": "word"
+        },
+        {
+          "expected": "Blackboard",
+          "detected": "Blackboard.",
+          "confidence": 0.48,
+          "passed": false,
+          "character_accuracy": 0.9,
+          "category": "word"
+        },
+        {
+          "expected": "Computer",
+          "detected": "Computer",
+          "confidence": 0.65,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Science",
+          "detected": "Science",
+          "confidence": 0.49,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Mathematics",
+          "detected": "Mathematics",
+          "confidence": 0.95,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Circle",
+          "detected": "Circle",
+          "confidence": 0.68,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "Square",
+          "detected": "Sgvare",
+          "confidence": 0.09,
+          "passed": false,
+          "character_accuracy": 0.6666666666666667,
+          "category": "word"
+        },
+        {
+          "expected": "Triangle",
+          "detected": "Triangle",
+          "confidence": 0.62,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "word"
+        },
+        {
+          "expected": "AI Smart Blackboard",
+          "detected": "Al Smart Blackboard",
+          "confidence": 0.93,
+          "passed": false,
+          "character_accuracy": 0.9473684210526316,
+          "category": "project_text"
+        },
+        {
+          "expected": "Smart Blackboard",
+          "detected": "Smart Blackboard",
+          "confidence": 0.96,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "project_text"
+        },
+        {
+          "expected": "Shape Correct",
+          "detected": "Shape Correct",
+          "confidence": 0.86,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "project_text"
+        },
+        {
+          "expected": "Automatic Recognition",
+          "detected": "Automatic Recognition",
+          "confidence": 0.635,
+          "passed": true,
+          "character_accuracy": 1.0,
+          "category": "project_text"
+        }
+      ],
+      "accuracy": 0.5783222423875781,
+      "mean_confidence": 0.597183908045977
+    }
+  ]
+}

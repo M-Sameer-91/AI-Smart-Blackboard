@@ -12,7 +12,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, Tuple
-from PIL import Image, ImageGrab
+from PIL import Image, ImageDraw, ImageColor
 import tkinter as tk
 
 
@@ -81,7 +81,7 @@ class Recognizer:
         Returns:
             str: Generated filename with timestamp
         """
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
         return f"board_{timestamp}.png"
         
     def capture_canvas(self) -> Optional[Path]:
@@ -98,29 +98,25 @@ class Recognizer:
             RuntimeError: If canvas capture fails unexpectedly
         """
         try:
-            # Get the canvas widget
-            canvas_widget = self._canvas.get_canvas()
-            
-            # Ensure canvas widget exists
-            if not canvas_widget:
-                raise RuntimeError("Canvas widget not available")
-            
-            # Update widget to ensure correct geometry
-            canvas_widget.update_idletasks()
-            
-            # Get canvas position and size
-            x = canvas_widget.winfo_rootx()
-            y = canvas_widget.winfo_rooty()
-            width = canvas_widget.winfo_width()
-            height = canvas_widget.winfo_height()
-            
-            # Validate canvas dimensions
+            width, height = self._canvas.get_canvas_size()
             if width <= 0 or height <= 0:
                 raise RuntimeError(f"Invalid canvas dimensions: {width}x{height}")
-            
-            # Capture the canvas region from screen
-            bbox = (x, y, x + width, y + height)
-            screenshot = ImageGrab.grab(bbox=bbox)
+
+            # Render the application's stroke data rather than screen-grabbing.
+            # This is immune to display scaling and excludes UI/overlay pixels.
+            screenshot = Image.new("RGB", (width, height), "black")
+            draw = ImageDraw.Draw(screenshot)
+            for stroke in self._canvas.get_stroke_history():
+                if not stroke.points:
+                    continue
+                color = ImageColor.getrgb(stroke.color)
+                line_width = max(1, round(stroke.width))
+                if len(stroke.points) == 1:
+                    x, y = stroke.points[0]
+                    radius = line_width / 2
+                    draw.ellipse((x - radius, y - radius, x + radius, y + radius), fill=color)
+                else:
+                    draw.line(stroke.points, fill=color, width=line_width, joint="curve")
             
             # Generate filename and save
             filename = self.generate_filename()
@@ -128,6 +124,7 @@ class Recognizer:
             
             # Save the image
             self.save_image(screenshot, image_path)
+            print(f"Canvas capture saved: {image_path} ({width}x{height}, strokes={self._canvas.get_stroke_count()})")
             
             # Store the path of the last saved image
             self._last_saved_path = image_path

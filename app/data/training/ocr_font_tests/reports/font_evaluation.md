@@ -1,0 +1,376 @@
+# OCR font evaluation
+
+controlled font evaluation; not evidence of general human-handwriting accuracy
+
+## Caveat
+
+Status: complete
+Character accuracy: 48.7%
+Mean confidence: 0.68
+
+- [PASS] character: expected `A`, detected `A`, confidence 0.96, accuracy 100.0%
+- [FAIL] character: expected `B`, detected `6`, confidence 0.82, accuracy 0.0%
+- [PASS] character: expected `C`, detected `C`, confidence 0.91, accuracy 100.0%
+- [PASS] character: expected `D`, detected `D`, confidence 0.75, accuracy 100.0%
+- [PASS] character: expected `E`, detected `E`, confidence 0.85, accuracy 100.0%
+- [PASS] character: expected `F`, detected `F`, confidence 0.70, accuracy 100.0%
+- [FAIL] character: expected `G`, detected `6`, confidence 0.83, accuracy 0.0%
+- [FAIL] character: expected `H`, detected `Hf`, confidence 0.84, accuracy 0.0%
+- [FAIL] character: expected `I`, detected `L`, confidence 0.44, accuracy 0.0%
+- [PASS] character: expected `J`, detected `J`, confidence 0.53, accuracy 100.0%
+- [PASS] character: expected `K`, detected `K`, confidence 0.93, accuracy 100.0%
+- [FAIL] character: expected `L`, detected `C`, confidence 0.38, accuracy 0.0%
+- [PASS] character: expected `M`, detected `M`, confidence 0.87, accuracy 100.0%
+- [PASS] character: expected `N`, detected `N`, confidence 0.72, accuracy 100.0%
+- [FAIL] character: expected `O`, detected `0`, confidence 0.60, accuracy 0.0%
+- [PASS] character: expected `P`, detected `p`, confidence 0.84, accuracy 100.0%
+- [FAIL] character: expected `Q`, detected `tl`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `R`, detected `R`, confidence 0.90, accuracy 100.0%
+- [FAIL] character: expected `S`, detected `g`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `T`, detected `T`, confidence 0.87, accuracy 100.0%
+- [FAIL] character: expected `U`, detected `Y`, confidence 0.46, accuracy 0.0%
+- [PASS] character: expected `V`, detected `V`, confidence 0.07, accuracy 100.0%
+- [FAIL] character: expected `W`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `X`, detected `X`, confidence 0.89, accuracy 100.0%
+- [PASS] character: expected `Y`, detected `y`, confidence 0.25, accuracy 100.0%
+- [FAIL] character: expected `Z`, detected `A`, confidence 0.75, accuracy 0.0%
+- [FAIL] character: expected `a`, detected `Z`, confidence 0.52, accuracy 0.0%
+- [PASS] character: expected `b`, detected `b`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `c`, detected `C`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `d`, detected `d`, confidence 0.74, accuracy 100.0%
+- [FAIL] character: expected `e`, detected `C`, confidence 0.95, accuracy 0.0%
+- [PASS] character: expected `f`, detected `f`, confidence 0.69, accuracy 100.0%
+- [FAIL] character: expected `g`, detected `d`, confidence 0.95, accuracy 0.0%
+- [PASS] character: expected `h`, detected `h`, confidence 0.91, accuracy 100.0%
+- [FAIL] character: expected `i`, detected `,`, confidence 0.80, accuracy 0.0%
+- [PASS] character: expected `j`, detected `j`, confidence 0.89, accuracy 100.0%
+- [PASS] character: expected `k`, detected `k`, confidence 0.84, accuracy 100.0%
+- [FAIL] character: expected `l`, detected `/`, confidence 0.90, accuracy 0.0%
+- [FAIL] character: expected `m`, detected `a`, confidence 0.41, accuracy 0.0%
+- [FAIL] character: expected `n`, detected `rr`, confidence 0.73, accuracy 0.0%
+- [FAIL] character: expected `o`, detected `4`, confidence 0.83, accuracy 0.0%
+- [PASS] character: expected `p`, detected `P`, confidence 0.88, accuracy 100.0%
+- [FAIL] character: expected `q`, detected `1`, confidence 0.95, accuracy 0.0%
+- [FAIL] character: expected `r`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `s`, detected `g`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `t`, detected `C`, confidence 0.52, accuracy 0.0%
+- [PASS] character: expected `u`, detected `U`, confidence 0.66, accuracy 100.0%
+- [PASS] character: expected `v`, detected `V`, confidence 0.89, accuracy 100.0%
+- [FAIL] character: expected `w`, detected `UW`, confidence 0.63, accuracy 0.0%
+- [PASS] character: expected `x`, detected `X`, confidence 0.77, accuracy 100.0%
+- [FAIL] character: expected `y`, detected `J`, confidence 0.88, accuracy 0.0%
+- [FAIL] character: expected `z`, detected `x`, confidence 0.63, accuracy 0.0%
+- [FAIL] character: expected `0`, detected `¢`, confidence 0.80, accuracy 0.0%
+- [FAIL] character: expected `1`, detected `7`, confidence 0.95, accuracy 0.0%
+- [FAIL] character: expected `2`, detected `Z`, confidence 0.69, accuracy 0.0%
+- [FAIL] character: expected `3`, detected `Ss`, confidence 0.51, accuracy 0.0%
+- [FAIL] character: expected `4`, detected `Y`, confidence 0.81, accuracy 0.0%
+- [PASS] character: expected `5`, detected `5`, confidence 0.96, accuracy 100.0%
+- [FAIL] character: expected `6`, detected `O`, confidence 0.85, accuracy 0.0%
+- [FAIL] character: expected `7`, detected `f`, confidence 0.21, accuracy 0.0%
+- [FAIL] character: expected `8`, detected `S`, confidence 0.31, accuracy 0.0%
+- [FAIL] character: expected `9`, detected `1`, confidence 0.76, accuracy 0.0%
+- [FAIL] ambiguous: expected `o`, detected `4`, confidence 0.83, accuracy 0.0%
+- [FAIL] ambiguous: expected `O`, detected `0`, confidence 0.60, accuracy 0.0%
+- [PASS] ambiguous: expected `c`, detected `C`, confidence 0.92, accuracy 100.0%
+- [FAIL] ambiguous: expected `e`, detected `C`, confidence 0.95, accuracy 0.0%
+- [FAIL] ambiguous: expected `a`, detected `Z`, confidence 0.52, accuracy 0.0%
+- [PASS] ambiguous: expected `x`, detected `X`, confidence 0.77, accuracy 100.0%
+- [FAIL] ambiguous: expected `y`, detected `J`, confidence 0.88, accuracy 0.0%
+- [FAIL] ambiguous: expected `l`, detected `/`, confidence 0.90, accuracy 0.0%
+- [FAIL] ambiguous: expected `I`, detected `L`, confidence 0.44, accuracy 0.0%
+- [FAIL] ambiguous: expected `1`, detected `7`, confidence 0.95, accuracy 0.0%
+- [FAIL] ambiguous: expected `0`, detected `¢`, confidence 0.80, accuracy 0.0%
+- [PASS] word: expected `Hello`, detected `Hello`, confidence 0.70, accuracy 100.0%
+- [PASS] word: expected `World`, detected `World`, confidence 0.84, accuracy 100.0%
+- [FAIL] word: expected `Smart`, detected `Smort`, confidence 0.38, accuracy 80.0%
+- [PASS] word: expected `Blackboard`, detected `Blackboard`, confidence 0.49, accuracy 100.0%
+- [FAIL] word: expected `Computer`, detected `Computer:`, confidence 0.53, accuracy 87.5%
+- [FAIL] word: expected `Science`, detected `Soience`, confidence 0.09, accuracy 85.7%
+- [FAIL] word: expected `Mathematics`, detected `Mathematice`, confidence 0.19, accuracy 90.9%
+- [PASS] word: expected `Circle`, detected `Circle`, confidence 0.74, accuracy 100.0%
+- [PASS] word: expected `Square`, detected `Square`, confidence 0.63, accuracy 100.0%
+- [PASS] word: expected `Triangle`, detected `Triangle`, confidence 0.71, accuracy 100.0%
+- [FAIL] project_text: expected `AI Smart Blackboard`, detected `AL Smart Blackboard`, confidence 0.84, accuracy 94.7%
+- [FAIL] project_text: expected `Smart Blackboard`, detected `Cmart Blackboard`, confidence 0.87, accuracy 93.8%
+- [PASS] project_text: expected `Shape Correct`, detected `Shape Correct`, confidence 0.52, accuracy 100.0%
+- [PASS] project_text: expected `Automatic Recognition`, detected `Automatic Recognition`, confidence 0.86, accuracy 100.0%
+## IndieFlower
+
+Status: complete
+Character accuracy: 54.3%
+Mean confidence: 0.64
+
+- [PASS] character: expected `A`, detected `a`, confidence 0.88, accuracy 100.0%
+- [PASS] character: expected `B`, detected `B`, confidence 0.81, accuracy 100.0%
+- [PASS] character: expected `C`, detected `C`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `D`, detected `D`, confidence 0.81, accuracy 100.0%
+- [FAIL] character: expected `E`, detected `C`, confidence 0.25, accuracy 0.0%
+- [FAIL] character: expected `F`, detected `LL`, confidence 0.04, accuracy 0.0%
+- [FAIL] character: expected `G`, detected `Gq`, confidence 0.45, accuracy 0.0%
+- [PASS] character: expected `H`, detected `H`, confidence 0.64, accuracy 100.0%
+- [FAIL] character: expected `I`, detected `\`, confidence 0.80, accuracy 0.0%
+- [PASS] character: expected `J`, detected `J`, confidence 0.96, accuracy 100.0%
+- [PASS] character: expected `K`, detected `K`, confidence 0.86, accuracy 100.0%
+- [PASS] character: expected `L`, detected `L`, confidence 0.77, accuracy 100.0%
+- [PASS] character: expected `M`, detected `M`, confidence 0.89, accuracy 100.0%
+- [FAIL] character: expected `N`, detected `NO`, confidence 0.17, accuracy 0.0%
+- [PASS] character: expected `O`, detected `O`, confidence 0.85, accuracy 100.0%
+- [FAIL] character: expected `P`, detected `D`, confidence 0.76, accuracy 0.0%
+- [FAIL] character: expected `Q`, detected `QQ`, confidence 0.45, accuracy 0.0%
+- [PASS] character: expected `R`, detected `R`, confidence 0.90, accuracy 100.0%
+- [PASS] character: expected `S`, detected `S`, confidence 0.90, accuracy 100.0%
+- [PASS] character: expected `T`, detected `T`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `U`, detected `U`, confidence 0.76, accuracy 100.0%
+- [PASS] character: expected `V`, detected `V`, confidence 0.92, accuracy 100.0%
+- [FAIL] character: expected `W`, detected `LJ`, confidence 0.53, accuracy 0.0%
+- [PASS] character: expected `X`, detected `X`, confidence 0.77, accuracy 100.0%
+- [PASS] character: expected `Y`, detected `Y`, confidence 0.91, accuracy 100.0%
+- [FAIL] character: expected `Z`, detected `2`, confidence 0.52, accuracy 0.0%
+- [PASS] character: expected `a`, detected `a`, confidence 0.30, accuracy 100.0%
+- [PASS] character: expected `b`, detected `b`, confidence 0.86, accuracy 100.0%
+- [PASS] character: expected `c`, detected `C`, confidence 0.91, accuracy 100.0%
+- [FAIL] character: expected `d`, detected `C`, confidence 0.75, accuracy 0.0%
+- [FAIL] character: expected `e`, detected `C`, confidence 0.31, accuracy 0.0%
+- [FAIL] character: expected `f`, detected `c`, confidence 0.69, accuracy 0.0%
+- [FAIL] character: expected `g`, detected `J`, confidence 0.85, accuracy 0.0%
+- [PASS] character: expected `h`, detected `h`, confidence 0.85, accuracy 100.0%
+- [FAIL] character: expected `i`, detected `|`, confidence 0.80, accuracy 0.0%
+- [PASS] character: expected `j`, detected `J`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `k`, detected `K`, confidence 0.71, accuracy 100.0%
+- [FAIL] character: expected `l`, detected `|`, confidence 0.80, accuracy 0.0%
+- [FAIL] character: expected `m`, detected `mm`, confidence 0.10, accuracy 0.0%
+- [FAIL] character: expected `n`, detected `r`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `o`, detected `O`, confidence 0.87, accuracy 100.0%
+- [FAIL] character: expected `p`, detected `er`, confidence 0.08, accuracy 0.0%
+- [FAIL] character: expected `q`, detected `C`, confidence 0.76, accuracy 0.0%
+- [FAIL] character: expected `r`, detected `c`, confidence 0.49, accuracy 0.0%
+- [PASS] character: expected `s`, detected `S`, confidence 0.74, accuracy 100.0%
+- [PASS] character: expected `t`, detected `t`, confidence 0.00, accuracy 100.0%
+- [FAIL] character: expected `u`, detected `o`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `v`, detected `V`, confidence 0.91, accuracy 100.0%
+- [FAIL] character: expected `w`, detected `Ud`, confidence 0.36, accuracy 0.0%
+- [FAIL] character: expected `x`, detected `xX`, confidence 0.35, accuracy 0.0%
+- [FAIL] character: expected `y`, detected `¥`, confidence 0.80, accuracy 0.0%
+- [FAIL] character: expected `z`, detected `Zz`, confidence 0.62, accuracy 0.0%
+- [FAIL] character: expected `0`, detected `C`, confidence 0.79, accuracy 0.0%
+- [FAIL] character: expected `1`, detected `4`, confidence 0.49, accuracy 0.0%
+- [FAIL] character: expected `2`, detected `6`, confidence 0.09, accuracy 0.0%
+- [PASS] character: expected `3`, detected `3`, confidence 0.96, accuracy 100.0%
+- [FAIL] character: expected `4`, detected `Uy`, confidence 0.24, accuracy 0.0%
+- [PASS] character: expected `5`, detected `5`, confidence 0.26, accuracy 100.0%
+- [PASS] character: expected `6`, detected `6`, confidence 0.96, accuracy 100.0%
+- [FAIL] character: expected `7`, detected `4`, confidence 0.84, accuracy 0.0%
+- [FAIL] character: expected `8`, detected `6`, confidence 0.95, accuracy 0.0%
+- [FAIL] character: expected `9`, detected `q`, confidence 0.18, accuracy 0.0%
+- [PASS] ambiguous: expected `o`, detected `O`, confidence 0.87, accuracy 100.0%
+- [PASS] ambiguous: expected `O`, detected `O`, confidence 0.85, accuracy 100.0%
+- [PASS] ambiguous: expected `c`, detected `C`, confidence 0.91, accuracy 100.0%
+- [FAIL] ambiguous: expected `e`, detected `C`, confidence 0.31, accuracy 0.0%
+- [PASS] ambiguous: expected `a`, detected `a`, confidence 0.30, accuracy 100.0%
+- [FAIL] ambiguous: expected `x`, detected `xX`, confidence 0.35, accuracy 0.0%
+- [FAIL] ambiguous: expected `y`, detected `¥`, confidence 0.80, accuracy 0.0%
+- [FAIL] ambiguous: expected `l`, detected `|`, confidence 0.80, accuracy 0.0%
+- [FAIL] ambiguous: expected `I`, detected `\`, confidence 0.80, accuracy 0.0%
+- [FAIL] ambiguous: expected `1`, detected `4`, confidence 0.49, accuracy 0.0%
+- [FAIL] ambiguous: expected `0`, detected `C`, confidence 0.79, accuracy 0.0%
+- [PASS] word: expected `Hello`, detected `Hello`, confidence 0.81, accuracy 100.0%
+- [PASS] word: expected `World`, detected `World`, confidence 0.72, accuracy 100.0%
+- [PASS] word: expected `Smart`, detected `Smart`, confidence 0.39, accuracy 100.0%
+- [FAIL] word: expected `Blackboard`, detected `Blackboard |`, confidence 0.48, accuracy 80.0%
+- [FAIL] word: expected `Computer`, detected `Computer,`, confidence 0.60, accuracy 87.5%
+- [FAIL] word: expected `Science`, detected `Science.`, confidence 0.50, accuracy 85.7%
+- [PASS] word: expected `Mathematics`, detected `Mathematics`, confidence 0.96, accuracy 100.0%
+- [PASS] word: expected `Circle`, detected `Circle`, confidence 0.69, accuracy 100.0%
+- [PASS] word: expected `Square`, detected `Square`, confidence 0.44, accuracy 100.0%
+- [FAIL] word: expected `Triangle`, detected `Triange`, confidence 0.24, accuracy 87.5%
+- [FAIL] project_text: expected `AI Smart Blackboard`, detected `A\ Smart Blackboard`, confidence 0.84, accuracy 94.7%
+- [PASS] project_text: expected `Smart Blackboard`, detected `Smart Blackboard`, confidence 0.93, accuracy 100.0%
+- [FAIL] project_text: expected `Shape Correct`, detected `Shaee Correct`, confidence 0.85, accuracy 92.3%
+- [PASS] project_text: expected `Automatic Recognition`, detected `Automatic Recognition`, confidence 0.91, accuracy 100.0%
+## DancingScript
+
+Status: complete
+Character accuracy: 43.1%
+Mean confidence: 0.54
+
+- [PASS] character: expected `A`, detected `A`, confidence 0.88, accuracy 100.0%
+- [FAIL] character: expected `B`, detected `D`, confidence 0.88, accuracy 0.0%
+- [PASS] character: expected `C`, detected `C`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `D`, detected `D`, confidence 0.88, accuracy 100.0%
+- [FAIL] character: expected `E`, detected `C`, confidence 0.66, accuracy 0.0%
+- [FAIL] character: expected `F`, detected `t`, confidence 0.53, accuracy 0.0%
+- [PASS] character: expected `G`, detected `G`, confidence 0.77, accuracy 100.0%
+- [FAIL] character: expected `H`, detected `rt`, confidence 0.87, accuracy 0.0%
+- [PASS] character: expected `I`, detected `I`, confidence 0.49, accuracy 100.0%
+- [FAIL] character: expected `J`, detected `7`, confidence 0.51, accuracy 0.0%
+- [PASS] character: expected `K`, detected `K`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `L`, detected `L`, confidence 0.70, accuracy 100.0%
+- [FAIL] character: expected `M`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `N`, detected `N`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `O`, detected `O`, confidence 0.62, accuracy 100.0%
+- [FAIL] character: expected `P`, detected `Pp`, confidence 0.58, accuracy 0.0%
+- [FAIL] character: expected `Q`, detected `(`, confidence 0.80, accuracy 0.0%
+- [PASS] character: expected `R`, detected `R`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `S`, detected `S`, confidence 0.64, accuracy 100.0%
+- [FAIL] character: expected `T`, detected `7`, confidence 0.80, accuracy 0.0%
+- [FAIL] character: expected `U`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `V`, detected `V`, confidence 0.34, accuracy 100.0%
+- [PASS] character: expected `W`, detected `W`, confidence 0.73, accuracy 100.0%
+- [PASS] character: expected `X`, detected `x`, confidence 0.61, accuracy 100.0%
+- [PASS] character: expected `Y`, detected `Y`, confidence 0.53, accuracy 100.0%
+- [FAIL] character: expected `Z`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `a`, detected `Gy`, confidence 0.45, accuracy 0.0%
+- [PASS] character: expected `b`, detected `b`, confidence 0.67, accuracy 100.0%
+- [FAIL] character: expected `c`, detected `CO`, confidence 0.44, accuracy 0.0%
+- [PASS] character: expected `d`, detected `d`, confidence 0.80, accuracy 100.0%
+- [FAIL] character: expected `e`, detected `Z`, confidence 0.38, accuracy 0.0%
+- [PASS] character: expected `f`, detected `f`, confidence 0.83, accuracy 100.0%
+- [FAIL] character: expected `g`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `h`, detected `ly`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `i`, detected `U`, confidence 0.40, accuracy 0.0%
+- [FAIL] character: expected `j`, detected `f`, confidence 0.13, accuracy 0.0%
+- [FAIL] character: expected `k`, detected `he`, confidence 0.60, accuracy 0.0%
+- [FAIL] character: expected `l`, detected `f`, confidence 0.06, accuracy 0.0%
+- [PASS] character: expected `m`, detected `m`, confidence 0.84, accuracy 100.0%
+- [PASS] character: expected `n`, detected `n`, confidence 0.83, accuracy 100.0%
+- [FAIL] character: expected `o`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `p`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `q`, detected `4`, confidence 0.95, accuracy 0.0%
+- [FAIL] character: expected `r`, detected `LY`, confidence 0.49, accuracy 0.0%
+- [FAIL] character: expected `s`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `t`, detected `C`, confidence 0.87, accuracy 0.0%
+- [FAIL] character: expected `u`, detected `OL`, confidence 0.56, accuracy 0.0%
+- [FAIL] character: expected `v`, detected `7`, confidence 0.95, accuracy 0.0%
+- [FAIL] character: expected `w`, detected `Ua`, confidence 0.38, accuracy 0.0%
+- [FAIL] character: expected `x`, detected `9g`, confidence 0.20, accuracy 0.0%
+- [FAIL] character: expected `y`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `z`, detected `J`, confidence 0.89, accuracy 0.0%
+- [FAIL] character: expected `0`, detected `6`, confidence 0.49, accuracy 0.0%
+- [FAIL] character: expected `1`, detected `I`, confidence 0.61, accuracy 0.0%
+- [PASS] character: expected `2`, detected `2`, confidence 0.95, accuracy 100.0%
+- [FAIL] character: expected `3`, detected `J`, confidence 0.89, accuracy 0.0%
+- [PASS] character: expected `4`, detected `4`, confidence 0.96, accuracy 100.0%
+- [FAIL] character: expected `5`, detected `)`, confidence 0.80, accuracy 0.0%
+- [PASS] character: expected `6`, detected `6`, confidence 0.92, accuracy 100.0%
+- [FAIL] character: expected `7`, detected `f`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `8`, detected `5`, confidence 0.95, accuracy 0.0%
+- [FAIL] character: expected `9`, detected `C`, confidence 0.77, accuracy 0.0%
+- [FAIL] ambiguous: expected `o`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [PASS] ambiguous: expected `O`, detected `O`, confidence 0.62, accuracy 100.0%
+- [FAIL] ambiguous: expected `c`, detected `CO`, confidence 0.44, accuracy 0.0%
+- [FAIL] ambiguous: expected `e`, detected `Z`, confidence 0.38, accuracy 0.0%
+- [FAIL] ambiguous: expected `a`, detected `Gy`, confidence 0.45, accuracy 0.0%
+- [FAIL] ambiguous: expected `x`, detected `9g`, confidence 0.20, accuracy 0.0%
+- [FAIL] ambiguous: expected `y`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] ambiguous: expected `l`, detected `f`, confidence 0.06, accuracy 0.0%
+- [PASS] ambiguous: expected `I`, detected `I`, confidence 0.49, accuracy 100.0%
+- [FAIL] ambiguous: expected `1`, detected `I`, confidence 0.61, accuracy 0.0%
+- [FAIL] ambiguous: expected `0`, detected `6`, confidence 0.49, accuracy 0.0%
+- [FAIL] word: expected `Hello`, detected `Helle`, confidence 0.84, accuracy 80.0%
+- [FAIL] word: expected `World`, detected `Weld`, confidence 0.73, accuracy 60.0%
+- [PASS] word: expected `Smart`, detected `Smart`, confidence 0.63, accuracy 100.0%
+- [FAIL] word: expected `Blackboard`, detected `Blackbeard`, confidence 0.50, accuracy 90.0%
+- [FAIL] word: expected `Computer`, detected `Computer.`, confidence 0.53, accuracy 87.5%
+- [PASS] word: expected `Science`, detected `Science`, confidence 0.54, accuracy 100.0%
+- [PASS] word: expected `Mathematics`, detected `Mathematics`, confidence 0.40, accuracy 100.0%
+- [PASS] word: expected `Circle`, detected `Circle`, confidence 0.81, accuracy 100.0%
+- [PASS] word: expected `Square`, detected `Square`, confidence 0.58, accuracy 100.0%
+- [PASS] word: expected `Triangle`, detected `Triangle`, confidence 0.71, accuracy 100.0%
+- [FAIL] project_text: expected `AI Smart Blackboard`, detected `AT Smart Blackboard`, confidence 0.54, accuracy 94.7%
+- [FAIL] project_text: expected `Smart Blackboard`, detected `Bmart Blackbeard`, confidence 0.34, accuracy 87.5%
+- [PASS] project_text: expected `Shape Correct`, detected `Shape Correct`, confidence 0.53, accuracy 100.0%
+- [FAIL] project_text: expected `Automatic Recognition`, detected `Hatamatic Resin`, confidence 0.21, accuracy 52.4%
+## Handlee
+
+Status: complete
+Character accuracy: 57.8%
+Mean confidence: 0.60
+
+- [PASS] character: expected `A`, detected `A`, confidence 0.92, accuracy 100.0%
+- [FAIL] character: expected `B`, detected `.`, confidence 0.80, accuracy 0.0%
+- [PASS] character: expected `C`, detected `C`, confidence 0.91, accuracy 100.0%
+- [PASS] character: expected `D`, detected `D`, confidence 0.54, accuracy 100.0%
+- [FAIL] character: expected `E`, detected `C`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `F`, detected `L`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `G`, detected `G`, confidence 0.80, accuracy 100.0%
+- [FAIL] character: expected `H`, detected `tH`, confidence 0.67, accuracy 0.0%
+- [FAIL] character: expected `I`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `J`, detected `J`, confidence 0.96, accuracy 100.0%
+- [PASS] character: expected `K`, detected `K`, confidence 0.85, accuracy 100.0%
+- [PASS] character: expected `L`, detected `L`, confidence 0.70, accuracy 100.0%
+- [PASS] character: expected `M`, detected `M`, confidence 0.79, accuracy 100.0%
+- [PASS] character: expected `N`, detected `N`, confidence 0.65, accuracy 100.0%
+- [PASS] character: expected `O`, detected `O`, confidence 0.89, accuracy 100.0%
+- [FAIL] character: expected `P`, detected `D`, confidence 0.67, accuracy 0.0%
+- [PASS] character: expected `Q`, detected `Q`, confidence 0.68, accuracy 100.0%
+- [PASS] character: expected `R`, detected `R`, confidence 0.95, accuracy 100.0%
+- [PASS] character: expected `S`, detected `S`, confidence 0.48, accuracy 100.0%
+- [PASS] character: expected `T`, detected `T`, confidence 0.88, accuracy 100.0%
+- [FAIL] character: expected `U`, detected `0`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `V`, detected `V`, confidence 0.91, accuracy 100.0%
+- [FAIL] character: expected `W`, detected `UJ`, confidence 0.78, accuracy 0.0%
+- [PASS] character: expected `X`, detected `X`, confidence 0.79, accuracy 100.0%
+- [PASS] character: expected `Y`, detected `y`, confidence 0.48, accuracy 100.0%
+- [FAIL] character: expected `Z`, detected `VA`, confidence 0.73, accuracy 0.0%
+- [FAIL] character: expected `a`, detected `O.`, confidence 0.40, accuracy 0.0%
+- [FAIL] character: expected `b`, detected `9`, confidence 0.95, accuracy 0.0%
+- [PASS] character: expected `c`, detected `C`, confidence 0.91, accuracy 100.0%
+- [FAIL] character: expected `d`, detected `0`, confidence 0.95, accuracy 0.0%
+- [FAIL] character: expected `e`, detected `J`, confidence 0.52, accuracy 0.0%
+- [FAIL] character: expected `f`, detected `T`, confidence 0.14, accuracy 0.0%
+- [FAIL] character: expected `g`, detected `Y`, confidence 0.81, accuracy 0.0%
+- [FAIL] character: expected `h`, detected `n`, confidence 0.59, accuracy 0.0%
+- [FAIL] character: expected `i`, detected `.`, confidence 0.80, accuracy 0.0%
+- [FAIL] character: expected `j`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `k`, detected `K`, confidence 0.92, accuracy 100.0%
+- [FAIL] character: expected `l`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `m`, detected `AL`, confidence 0.58, accuracy 0.0%
+- [FAIL] character: expected `n`, detected `vl`, confidence 0.14, accuracy 0.0%
+- [PASS] character: expected `o`, detected `O`, confidence 0.92, accuracy 100.0%
+- [PASS] character: expected `p`, detected `p`, confidence 0.39, accuracy 100.0%
+- [FAIL] character: expected `q`, detected `C`, confidence 0.95, accuracy 0.0%
+- [PASS] character: expected `r`, detected `r`, confidence 0.00, accuracy 100.0%
+- [PASS] character: expected `s`, detected `S`, confidence 0.89, accuracy 100.0%
+- [PASS] character: expected `t`, detected `t`, confidence 0.70, accuracy 100.0%
+- [PASS] character: expected `u`, detected `U`, confidence 0.44, accuracy 100.0%
+- [PASS] character: expected `v`, detected `V`, confidence 0.91, accuracy 100.0%
+- [FAIL] character: expected `w`, detected `UW`, confidence 0.24, accuracy 0.0%
+- [PASS] character: expected `x`, detected `x`, confidence 0.42, accuracy 100.0%
+- [FAIL] character: expected `y`, detected `V`, confidence 0.00, accuracy 0.0%
+- [FAIL] character: expected `z`, detected `2`, confidence 0.64, accuracy 0.0%
+- [FAIL] character: expected `0`, detected `O`, confidence 0.87, accuracy 0.0%
+- [PASS] character: expected `1`, detected `1`, confidence 0.24, accuracy 100.0%
+- [PASS] character: expected `2`, detected `2`, confidence 0.90, accuracy 100.0%
+- [PASS] character: expected `3`, detected `3`, confidence 0.91, accuracy 100.0%
+- [FAIL] character: expected `4`, detected `ut`, confidence 0.24, accuracy 0.0%
+- [FAIL] character: expected `5`, detected `S`, confidence 0.00, accuracy 0.0%
+- [PASS] character: expected `6`, detected `6`, confidence 0.78, accuracy 100.0%
+- [PASS] character: expected `7`, detected `7`, confidence 0.90, accuracy 100.0%
+- [FAIL] character: expected `8`, detected `<`, confidence 0.95, accuracy 0.0%
+- [FAIL] character: expected `9`, detected `C`, confidence 0.80, accuracy 0.0%
+- [PASS] ambiguous: expected `o`, detected `O`, confidence 0.92, accuracy 100.0%
+- [PASS] ambiguous: expected `O`, detected `O`, confidence 0.89, accuracy 100.0%
+- [PASS] ambiguous: expected `c`, detected `C`, confidence 0.91, accuracy 100.0%
+- [FAIL] ambiguous: expected `e`, detected `J`, confidence 0.52, accuracy 0.0%
+- [FAIL] ambiguous: expected `a`, detected `O.`, confidence 0.40, accuracy 0.0%
+- [PASS] ambiguous: expected `x`, detected `x`, confidence 0.42, accuracy 100.0%
+- [FAIL] ambiguous: expected `y`, detected `V`, confidence 0.00, accuracy 0.0%
+- [FAIL] ambiguous: expected `l`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [FAIL] ambiguous: expected `I`, detected `No text recognized`, confidence 0.00, accuracy 0.0%
+- [PASS] ambiguous: expected `1`, detected `1`, confidence 0.24, accuracy 100.0%
+- [FAIL] ambiguous: expected `0`, detected `O`, confidence 0.87, accuracy 0.0%
+- [PASS] word: expected `Hello`, detected `Hello`, confidence 0.71, accuracy 100.0%
+- [PASS] word: expected `World`, detected `World`, confidence 0.72, accuracy 100.0%
+- [FAIL] word: expected `Smart`, detected `Smart:`, confidence 0.38, accuracy 80.0%
+- [FAIL] word: expected `Blackboard`, detected `Blackboard.`, confidence 0.48, accuracy 90.0%
+- [PASS] word: expected `Computer`, detected `Computer`, confidence 0.65, accuracy 100.0%
+- [PASS] word: expected `Science`, detected `Science`, confidence 0.49, accuracy 100.0%
+- [PASS] word: expected `Mathematics`, detected `Mathematics`, confidence 0.95, accuracy 100.0%
+- [PASS] word: expected `Circle`, detected `Circle`, confidence 0.68, accuracy 100.0%
+- [FAIL] word: expected `Square`, detected `Sgvare`, confidence 0.09, accuracy 66.7%
+- [PASS] word: expected `Triangle`, detected `Triangle`, confidence 0.62, accuracy 100.0%
+- [FAIL] project_text: expected `AI Smart Blackboard`, detected `Al Smart Blackboard`, confidence 0.93, accuracy 94.7%
+- [PASS] project_text: expected `Smart Blackboard`, detected `Smart Blackboard`, confidence 0.96, accuracy 100.0%
+- [PASS] project_text: expected `Shape Correct`, detected `Shape Correct`, confidence 0.86, accuracy 100.0%
+- [PASS] project_text: expected `Automatic Recognition`, detected `Automatic Recognition`, confidence 0.64, accuracy 100.0%
